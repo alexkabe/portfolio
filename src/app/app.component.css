@@ -1,0 +1,23 @@
+.form-control
+{
+    border-radius: 0.5rem;
+    height: 2rem;
+    padding: 0.5rem;
+    margin: 1rem 1rem 0 0;
+}
+
+.form__body
+{
+    text-align: center;
+    border: 1px solid black;
+    max-height: 30rem;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.large
+{
+    height: 150px;
+    max-height: 150px;
+    min-height: 150px;
+}

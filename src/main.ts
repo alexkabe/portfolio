@@ -10,3 +10,11 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
+  export class Main{
+
+    sendmail()
+    {
+        console.log('salut de deux');
+    }
+
+ }
