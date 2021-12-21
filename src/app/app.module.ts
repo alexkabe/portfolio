@@ -10,6 +10,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { FormsModule } from '@angular/forms';
 
+import { HttpClientModule } from '@angular/common/http'
+import { SendMail } from './sendservice';
+
+
 
 @NgModule({
   declarations: [
@@ -23,7 +27,9 @@ import { FormsModule } from '@angular/forms';
     NgbModule,
     FormsModule,
     BrowserAnimationsModule,
-    MatSliderModule
+    MatSliderModule,
+    HttpClientModule,
+    SendMail
   ],
   providers: [
   ],

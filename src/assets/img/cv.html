@@ -59,6 +59,12 @@ margin-left: 5%;
 margin-top: 6%;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.titre2{
+/* color: slategrey; */
+margin-left: 5%;
+margin-top: 5%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 hr{
 width: 95%;
@@ -153,28 +159,14 @@ border-radius: 30px;
     width: 20px;
     height: 20px;
 }
-    </style>
-    <!-- <style type="style/css">
-        @media print{
-            body{
-                -webkit-print-color-adjust: exact;
-            }
-        }
-    </style> -->
+svg{
+    margin-right: 3%;
+}
+footer{
 
-    <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script type="text/javascript">
-        $("#btnPrint").live("click", function () {
-            var divContents = $("#dvContainer").html();
-            var printWindow = window.open('', '', 'height=400,width=800');
-            printWindow.document.write('<html><head><title>DIV Contents</title>');
-            printWindow.document.write('</head><body >');
-            printWindow.document.write(divContents);
-            printWindow.document.write('</body></html>');
-            printWindow.document.close();
-            printWindow.print();
-        });
-    </script> -->
+    margin-left: 80%;
+}
+    </style>
 
     <style>
     </style>
@@ -188,14 +180,6 @@ border-radius: 30px;
                 <p>NDOUGABKA KABE Alex</p>
                     <p>Analyste Programmeur</p>
                 </div>
-                    
-            <!-- <p class="ptete">
-                <h2>20 Ans</h2>
-                <h2>Tel: </h2>
-                <h2>Email : alexkabekabe@gmail.com </h2>
-                <h2>Site web: alex-kabe-kabe.web.app</h2>
-                <h2>NDOUGABKA KABE Alex</h2>
-            </p> -->
         </h1> 
         <h1 class="tete2">
         </h1><br>
@@ -204,11 +188,27 @@ border-radius: 30px;
                 <h3 class="titre" >PROFIL</h3>
                 <hr>
                 <nav class="nav2">
-                    <ul>
-                        <li>Fass BATIMENT N°19 B, Dakar</li>
-                        <li>(+221) 78 440 36 96</li>
-                        <li>alexkabekabe@gmail.com</li>
-                        <li>alex-kabe-kabe.web.app</li>
+                    <ul style="list-style-type: none">
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                      </svg>
+                      Fass BATIMENT N°19 B, Dakar
+                    </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                              </svg>
+                            (+221) 78 440 36 96</li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                              </svg>
+                            alexkabekabe@gmail.com</li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cursor-fill" viewBox="0 0 16 16">
+                                <path d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103z"/>
+                              </svg>
+                            <a href="https://alex-kabe-kabe.web.app">https://alex-kabe-kabe.web.app</a></li>
                     </ul>
                 </nav>
             </div>
@@ -217,12 +217,32 @@ border-radius: 30px;
                 <h3 class="titre" >INTERETS</h3>
                 <hr>
                 <nav class="nav2">
-                    <ul style="list-style-type: square">
-                        <li>Lecture: bible, documentation, roman, article</li>
-                        <li>Sport: football, course, natation.</li>
-                        <li>Cuisine</li>
-                        <li>Voyage</li>
-                        <li>Musique</li>
+                    <ul style="list-style-type: none">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                                <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                              </svg>
+                            Lecture: bible, roman, article</li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                                <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                              </svg>
+                            Sport: football, course, natation.</li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                                <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                              </svg>
+                            Cuisine</li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                                <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                              </svg>
+                            Voyage</li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                                <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                              </svg>
+                            Musique</li>
                     </ul>
                 </nav>
             </div>
@@ -269,7 +289,8 @@ border-radius: 30px;
 
 
             <div>
-                <h3 class="titre" >COMPETENCES</h3>
+                <h3 class="titre" >
+                    COMPETENCES</h3>
                 <hr>
                 <nav class="nav2">
                     <ul style="list-style-type: none">
@@ -293,7 +314,7 @@ border-radius: 30px;
                                 <div class="skills ja"></div>
                             </div>
                         </li>
-                        <li>NodeJs
+                        <li>PHP, Laravel
                             <div class="container">
                                 <div class="skills no"></div>
                             </div>
@@ -312,26 +333,15 @@ border-radius: 30px;
 
 
     <header class="head2">
-            <!-- <nav class="nav2">
-                <h3 class="titre" >FORMATION</h3>
-
-            <div>
-                <hr>
-                <nav class="nav2">
-
-                    <p>2018-2021<br>
-                    Ville, pays<br>
-                    <strong>DIPLOME DE REUSSITEXXXXXXXXXXXXXXX</strong>
-                    <p class="ecole">Universite ou ecole</p>
-                    <br>
-                </p>
-                </nav>
-            </div> -->
 
             <nav class="nav2">
-                <img src="icons8-électricité-48.png" class="puissance">
-                <h3 class="titre" >
-                    FORMATION</h3>
+                <!-- <img src="icons8-électricité-48.png" class="puissance"> -->
+                <h3 >
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" color="rgb(192, 8, 8)" class="bi bi-lightning-fill" viewBox="0 0 16 16">
+                        <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5z"/>
+                      </svg>
+                      FORMATION
+                </h3>
 
             <div>
         
@@ -364,52 +374,48 @@ border-radius: 30px;
 
         
 
-            <h3 class="titre" >EXPERIENCE</h3>
+            <h3  >
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" color="rgb(192, 8, 8)" fill="currentColor" class="bi bi-hourglass-bottom" viewBox="0 0 16 16">
+                    <path d="M2 1.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.557 4.06c-.29.139-.443.377-.443.59v.7c0 .213.154.451.443.59A4.5 4.5 0 0 1 12.5 13v1h1a.5.5 0 0 1 0 1h-11a.5.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.557-4.06c.29-.139.443-.377.443-.59v-.7c0-.213-.154-.451-.443-.59A4.5 4.5 0 0 1 3.5 3V2h-1a.5.5 0 0 1-.5-.5zm2.5.5v1a3.5 3.5 0 0 0 1.989 3.158c.533.256 1.011.791 1.011 1.491v.702s.18.149.5.149.5-.15.5-.15v-.7c0-.701.478-1.236 1.011-1.492A3.5 3.5 0 0 0 11.5 3V2h-7z"/>
+                  </svg>
+                EXPERIENCE</h3>
 
             <div>
         
-                    <P class="annee">Nov. 2020 - Juil. 2021</P>
-                    <p class="ville">Ville, pays</p>
-                    <p class="diplome">NOM DE L'ENTREPRISE<br>
-                    Poste Occupe
+                    <P class="annee">Jan. 2021 - Juil. 2021</P>
+                    <p class="ville">Yaounde, Cameroun</p>
+                    <p class="diplome">Institut National de la Statistique<br>
+                    Developpeur freelance
                     <ul class="l2">
-                        <li class="l1">Lecture: bible, documentation, roman, article</li>
-                        <li class="l1">Sport: football, course, natation.</li>
-                        <li class="l1">Cuisine</li>
-                        <li class="l1">Voyage</li>
-                        <li class="l1">Musique</li>
+                        <li class="l1">Implementation et hebergement de l'application RISENE avec pour url <a href="https://ins-cameroon.risene.cm/">https://ins-cameroon.risene.cm/</a></li>
                     </ul>
                     </p>
             </div>
 
             <div>
         
-                <P class="annee">Nov. 2020 - Juil. 2021</P>
-                <p class="ville">Ville, pays</p>
-                <p class="diplome">NOM DE L'ENTREPRISE<br>
-                Poste Occupe
+                <P class="annee">Sep. 2020 - Nov. 2020</P>
+                <p class="ville">Douala, Cameroun</p>
+                <p class="diplome">Engineering Hard and Soft Solution<br>
+                Stagiaire
                 <ul class="l2">
-                    <li class="l1">Lecture: bible, documentation, roman, article</li>
-                    <li class="l1">Sport: football, course, natation.</li>
-                    <li class="l1">Cuisine</li>
-                    <li class="l1">Voyage</li>
-                    <li class="l1">Musique</li>
+                    <li class="l1">Realisation des interfaces mobiles</li>
+                    <li class="l1">Implementation des services angular (impression, lecture pdf...)</li>
+                    <li class="l1">Implementation de l'application mobile OCM</li>
+                    <li class="l1">Assurer la maintenance informatique</li>
                 </ul>
                 </p>
         </div>
 
         <div>
         
-            <P class="annee">Nov. 2020 - Juil. 2021</P>
-            <p class="ville">Ville, pays</p>
-            <p class="diplome">NOM DE L'ENTREPRISE<br>
-            Poste Occupe
+            <P class="annee">Jun. 2019 - Aou. 2019</P>
+            <p class="ville">Yaounde, Cameroun</p>
+            <p class="diplome">Societe Anonyme les Brasseries du Cameroun<br>
+            Stagiaire
             <ul class="l2">
-                <li class="l1">Lecture: bible, documentation, roman, article</li>
-                <li class="l1">Sport: football, course, natation.</li>
-                <li class="l1">Cuisine</li>
-                <li class="l1">Voyage</li>
-                <li class="l1">Musique</li>
+                <li class="l1">Assurer la maintenance du parc informatique</li>
+                <li class="l1">Analyse du systeme avec popur theme <strong>Gestion des courriers</strong> avec pour methode MERISE</li>
             </ul>
             </p>
     </div>
@@ -430,4 +436,8 @@ border-radius: 30px;
     </section> -->
 
 </body>
+
+<footer>
+    <p>HTML5 export to pdf</p>
+</footer>
 </html>

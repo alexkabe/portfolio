@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SendMail } from './sendservice';
 
 
 @Component({
@@ -9,9 +10,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'portfolio';
 
+  constructor(private send: SendMail){
+    
+  }
   sendmail(f)
   {
     const p = f.value;
+    this.send.sendData(p);
     console.log(p);
     f.reset();
   }
