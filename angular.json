@@ -24,9 +24,14 @@
               "src/assets"
             ],
             "styles": [
+              "src/custom-theme.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/main.js",
+              "src/assets/dest.ts"
+            ]
           },
           "configurations": {
             "production": {
@@ -90,7 +95,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/boxicons/dist/boxicons.js",
+              "src/assets/js/main.js"
+            ]
           }
         },
         "lint": {
@@ -119,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "portfolio"
+    }
+  },
+  "defaultProject": "portfolio",
+  "cli": {
+    "analytics": false
+  }
 }
